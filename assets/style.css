@@ -1,0 +1,205 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    height: 90vh;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #f7f7f7;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow-y: auto;
+}
+
+.user-info {
+    margin-bottom: 20px;
+}
+
+.user-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-img img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+
+.user-name-status {
+    margin-left: 15px;
+    flex-grow: 1;
+}
+
+.user-name-status h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.user-name-status p {
+    margin: 5px 0;
+    font-size: 16px;
+    color: green;
+}
+
+.user-chat-icon {
+    margin-left: 15px;
+}
+
+.user-chat-icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.dropdown {
+    position: relative;
+    margin-left: 15px;
+}
+
+.dropbtn {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.hamburger-icon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+}
+
+.hamburger-icon .line {
+    width: 25px;
+    height: 3px;
+    background-color: #333;
+    margin: 2px 0;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    right: 0;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.new-chat-button {
+    align-self: center;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-name {
+    margin: 0;
+    font-size: 18px;
+}
+
+.card-status, .last-message {
+    margin: 0;
+    font-size: 14px;
+    color: green;
+}
+
+.main-section {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    text-align: center;
+}
+
+.main-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+
+
